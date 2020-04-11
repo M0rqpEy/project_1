@@ -36,7 +36,7 @@ def payment_process(request):
                                 message,
                                 'admin@myshop.com',
                                 [order.email])
-            html = render_to_string('orders/order.pdf.html', 
+            html = render_to_string('orders/order/pdf.html', 
                                 {"order": order})
             out = BytesIO()
             stylesheets = [weasyprint.CSS(settings.STATIC_ROOT + 
