@@ -21,6 +21,7 @@ psycopg2-binary==2.8.4
 pycparser==2.20
 Pyphen==0.9.5
 pytz==2019.3
+redis==2.10.6
 requests==2.23.0
 six==1.14.0
 tinycss2==1.0.2
